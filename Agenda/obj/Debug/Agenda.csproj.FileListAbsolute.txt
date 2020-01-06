@@ -1,0 +1,9 @@
+C:\Users\danie\source\repos\Agenda\Agenda\bin\Debug\Agenda.exe.config
+C:\Users\danie\source\repos\Agenda\Agenda\bin\Debug\Agenda.exe
+C:\Users\danie\source\repos\Agenda\Agenda\bin\Debug\Agenda.pdb
+C:\Users\danie\source\repos\Agenda\Agenda\obj\Debug\Agenda.csprojAssemblyReference.cache
+C:\Users\danie\source\repos\Agenda\Agenda\obj\Debug\Agenda.frmAgendaContatos.resources
+C:\Users\danie\source\repos\Agenda\Agenda\obj\Debug\Agenda.Properties.Resources.resources
+C:\Users\danie\source\repos\Agenda\Agenda\obj\Debug\Agenda.csproj.GenerateResource.cache
+C:\Users\danie\source\repos\Agenda\Agenda\obj\Debug\Agenda.exe
+C:\Users\danie\source\repos\Agenda\Agenda\obj\Debug\Agenda.pdb
