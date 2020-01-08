@@ -18,5 +18,10 @@ namespace Agenda
             this.Email = email;
             this.NumeroTelefone = telefone;
         }
+
+        public override string ToString()
+        {
+            return string.Format("{0} - {1}, {2}", this.Nome, this.Email, this.NumeroTelefone);
+        }
     }
 }

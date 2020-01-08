@@ -39,7 +39,10 @@ namespace Agenda
         public static void EscreverArquivo(List<Contato> contatosLista)
         {
 
-            using (StreamWriter sw = new StreamWriter(@EnderecoArquivo, true))
+            if (contatosLista.Count == 0)
+                return;
+
+            using (StreamWriter sw = new StreamWriter(@EnderecoArquivo, false))
             {
                 foreach (Contato contato in contatosLista)
                 {
