@@ -49,6 +49,7 @@
             this.lbxContatos.Name = "lbxContatos";
             this.lbxContatos.Size = new System.Drawing.Size(262, 303);
             this.lbxContatos.TabIndex = 0;
+            this.lbxContatos.SelectedIndexChanged += new System.EventHandler(this.lbxContatos_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -65,7 +66,6 @@
             this.txbNome.Name = "txbNome";
             this.txbNome.Size = new System.Drawing.Size(348, 20);
             this.txbNome.TabIndex = 2;
-            this.txbNome.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
