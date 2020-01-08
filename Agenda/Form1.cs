@@ -26,11 +26,13 @@ namespace Agenda
         {
             EnableIncluirExcluirAlterar(false);
             EnableSalvarExcluir(true);
+            HabilitarCampos(true);
         }
 
         private void frmAgendaContatos_Shown(object sender, EventArgs e)
         {
             EnableSalvarExcluir(false);
+            HabilitarCampos(false);
             carregarListaContatos();
         }
 
@@ -69,6 +71,7 @@ namespace Agenda
             ManipuladorArquivos.EscreverArquivo(listContatos);
             limparCampos();
             carregarListaContatos();
+            HabilitarCampos(false);
             EnableIncluirExcluirAlterar(true);
             EnableSalvarExcluir(false);
         }
@@ -89,6 +92,7 @@ namespace Agenda
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             EnableIncluirExcluirAlterar(true);
+            HabilitarCampos(false);
             EnableSalvarExcluir(false);
         }
 
@@ -102,6 +106,13 @@ namespace Agenda
         {
             EnableIncluirExcluirAlterar(false);
             EnableSalvarExcluir(true);
+        }
+
+        private void HabilitarCampos(bool status)
+        {
+            txbNome.Enabled = status;
+            txbEmail.Enabled = status;
+            txbTelefone.Enabled = status;
         }
     }
 }
