@@ -1,2 +1,2 @@
 # Aplicação_Agenda
-Uma agenda implementada com C#
+Prática de conhecimento de C# através da implementação de uma agenda.
